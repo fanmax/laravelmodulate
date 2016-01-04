@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => ['web']], function () {
-    Route::get('/dashboard','DashboardController@index');
+    
 });
