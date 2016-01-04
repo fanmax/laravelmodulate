@@ -156,6 +156,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Blog\Backend\Providers\BackendServiceProvider::class,
+        Blog\Frontend\Providers\FrontendServiceProvider::class,
+
     ],
 
     /*
